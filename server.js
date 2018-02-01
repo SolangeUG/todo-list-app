@@ -15,7 +15,7 @@ app.set('views engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
 
 // Set Static Folder
-app.use(express.static(__dirname, 'client'));
+app.use(express.static(path.join(__dirname, 'client')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
