@@ -1,6 +1,6 @@
 # A single-page ToDo list application — AngularJS
 
-[![MIT License](https://img.shields.io/badge/license-MIT%20License-green.svg)](https://github.com/SolangeUG/restful-microservices/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT%20License-green.svg)](https://github.com/SolangeUG/todo-list-app/blob/master/LICENSE)
 [![Node.js Runtime](https://img.shields.io/badge/runtime-NodeJS-026E00.svg)](https://nodejs.org/en/)
 [![AngularJS Framework](https://img.shields.io/badge/framework-AngularJS-DD0031.svg)](https://angular.io/)
 [![Bootstrap Library](https://img.shields.io/badge/library-Bootstrap-8E44AD.svg)](http://getbootstrap.com/)
