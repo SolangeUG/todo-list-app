@@ -16,7 +16,7 @@ angApp.component('addTask', {
 			});
 		}
 
-		// addTask function
+		// addTask function (API function)
 		$ctrl.addTask = (task) => {
 			// let's check if the task is blank
 			if (! task) {
