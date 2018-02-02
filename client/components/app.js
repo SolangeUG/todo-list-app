@@ -1,6 +1,6 @@
-var app = angular.module('angular-app', []);
+var angApp = angular.module('angular-app', []);
 
-app.component('app', {
+angApp.component('app', {
 	templateUrl: 'client/templates/app.html',
 	controller: function($http) {
 		// let's ensure that "this" scope isn't lost
