@@ -19,6 +19,8 @@ This project is a basic single-page Angular application using the MEAN stack (Mo
 
 ## Starting the application
 
+[![Troubleshooting](https://img.shields.io/badge/building-failing-B71C1C.svg)](https://github.com/Asalem1/Angular_Template)
+
 This app requires that the user has MongoDB and Node installed on their machines. Once these have been properly configured, simply run the `npm install` or `yarn install` commands.
 
 To start the server, simply run the `npm start` (or `nodemon server.js` if you have it installed) in your terminal.
