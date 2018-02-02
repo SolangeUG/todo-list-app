@@ -5,6 +5,8 @@ const db = mongojs('tasks', ['tasks']);
 
 // set route for retrieving all tasks - GET
 router.get('/tasks', function(req, res, next) {
+	res.end('tasks.js get method');
+	/*
 	db.tasks.find(function(err, tasks) {
 		if (err) {
 			res.status(404);
@@ -12,6 +14,7 @@ router.get('/tasks', function(req, res, next) {
 		}
 	})
 	res.json(tasks);
+	*/
 });
 
 // set route for saving a task - POST

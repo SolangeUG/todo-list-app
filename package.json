@@ -14,7 +14,9 @@
     "bootstrap": "^4.0.0",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "jquery": "^1.9.1",
     "mongodb": "^3.0.2",
-    "mongojs": "^2.4.1"
+    "mongojs": "^2.4.1",
+    "popper.js": "^1.12.9"
   }
 }

@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 const index = require('./routes/index');
-const tasks = require('./routes/tasks');
+const tasks = require('./routes/tasks.js');
 
 const app = express();
 let port = process.env.PORT || 3000;
@@ -15,14 +15,16 @@ app.set('views engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
 
 // Set Static Folder
-app.use(express.static(path.join(__dirname, 'client')));
+//app.use(express.static(path.join(__dirname, 'client')));
+app.use(express.static(__dirname));
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 // set out home page route
 app.use('/', index);
 // set our api call routes
-app.use('/api', tasks);
+app.use('/tasks', tasks);
 
 // Start our server
 app.listen(port, function() {
